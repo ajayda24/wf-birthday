@@ -3,7 +3,6 @@
 </head>
 <body>
 <%- include('p/navbar'); -%>
-<a href="whatsapp://send?text=https://birthday-wf.herokuapp.com/">Whatsapp</a>
 <div class="album py-5 bg-light txt-center">
   <div class="container">
   <div class="row row-cols-1 row-cols-md-3"> 
@@ -12,7 +11,7 @@
             
               <div class="col col-sm-6 col-md-4 col-lg-3 mb-4" onclick="window.location='/wf/<%=i%>';" >
                 <div class="card h-100 text-white bg-dark text-center"   style="border-color: <%= colour[i].bgcolor %>;color: <%= colour[i].color %>; border-width:2px">
-                  <img src="<%= bd[0].image[i] %>" class="card-img-top" alt="...">
+                  <a href="/wf/<%=i%>"><img src="<%= bd[0].image[i] %>" class="card-img-top" alt="..."></a>
                   <div class="card-body">
                     <h5 class="card-title"><%= bd[0].name[i] %></h5>
                     <a href="whatsapp://send?text=https://birthday-wf.herokuapp.com/wf/i">Share via Whatsapp</a>
