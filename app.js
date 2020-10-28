@@ -67,7 +67,7 @@ app.use(bodyParser.urlencoded({
 
 app.get("/",function(req,res){
 
-    res.render("home",{
+    res.render("wa",{
         bd:bday,
         colour:colour
     })
@@ -84,7 +84,7 @@ app.get("/wf/:wfId", function(req, res){
     const requestedWfId = req.params.wfId;
     const id = requestedWfId;
     
-        res.render("singleBd", {
+        res.render("single-wa", {
             id: id,
             name: bday[0].name[id],
             image: bday[0].image[id]
