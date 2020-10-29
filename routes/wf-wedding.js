@@ -28,13 +28,9 @@ router.get("/",function(req,res){
 
     res.render("../views/wedding",{
         bd:bday,
-        nav:"WF Wedding Anniversary"
+        nav:"Wedding Anniversary",
+        link:"/wf-wedding"
     })
-    // console.log(bday[0].name[1]);
-
-    // console.log(bday[0].image[1]);
-
-    // console.log(bday);
 
 });
 
@@ -47,7 +43,8 @@ router.get("/wf/:wfId", function(req, res){
         id: id,
         name: bday[0].name[id],
         image: bday[0].image[id],
-        nav:"WF Wedding Anniversary"
+        nav:"Wedding Anniversary",
+        link:"/wf-wedding"
 
     });
     console.log(id);

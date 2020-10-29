@@ -28,7 +28,8 @@ router.get("/",function(req,res){
 
     res.render("../views/birthday",{
         bd:bday,
-        nav:"WF Birthday"
+        nav:"WF Birthday",
+        link:"/wf-birthday"
     })
 
 });
@@ -42,7 +43,9 @@ router.get("/wf/:wfId", function(req, res){
         id: id,
         name: bday[0].name[id],
         place: bday[0].place[id],
-        nav:"WF Birthday"
+        nav:"WF Birthday",
+        link:"/wf-birthday"
+
 
     });
 });
