@@ -3,21 +3,26 @@
 </head>
 <body>
 <%- include('p/navbar'); -%>
+<div class="text-center">
+  <div class="container">
+    <h1 class="display-3">Happy Birthday</h1>
+  </div>
+</div>
 <div class="album py-5 bg-light text-center">
   <div class="container">
+
   <div class="row row-cols-1 row-cols-md-3"> 
 
             <% for(var i=0; i<bd[0].name.length; i++){ %>
             
               <div class="col col-sm-6 col-md-4 col-lg-3 mb-4">
-                <div class="card h-100 text-white bg-dark text-center"   style="border-color: <%= colour[i].bgcolor %>;color: <%= colour[i].color %>; border-width:2px">
-                  <a href="/wf/<%=i%>"><img src="<%= bd[0].place[i] %>" class="card-img-top" alt="..."></a>
+                <div class="card h-100 text-white bg-dark text-center">
                   <div class="card-body">
-                    <h5 class="card-title"><%= bd[0].name[i] %></h5>
-                    <a href="whatsapp://send?text=https://birthday-wf.herokuapp.com/wf/<%=i%>"
+                    <h2 class="card-title"><%= bd[0].name[i] %></h5>
+                      <p class="card-text"><%= bd[0].place[i] %></p>
+                    <a href="whatsapp://send?text=https://birthday-wf.herokuapp.com/wf-birthday/wf/<%=i%>"
                     data-action="share/whatsapp/share"
                     target="_blank"><img src="images/share.png" alt="" width="70px"></a>
-                    <!-- <a class="btn btn-outline-light my-2 my-sm-0 mr-3" href="/login" role="button">Login</a> -->
                   </div>
                 </div>
               </div>

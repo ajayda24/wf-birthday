@@ -333,8 +333,8 @@ module.exports =
             oct25:[{name:["hae","hee","hlioyr"],place:["kannur","kozhikode","wayanad"]}],
             oct26:[{name:["hae","hee","hlioyr"],place:["kannur","kozhikode","wayanad"]}],
             oct27:[{name:["hae","hee","hlioyr"],place:["kannur","kozhikode","wayanad"]}],
-            oct28:[{name:["hae","hee","hlioyr","geqbvevgeqveqv","gegegqegvqevgqeg","qegqegqevgqegqegqe","fqv","cr   cv","wcc    ","Egbewgb","bvvvw"],place:["kannur","kozhikode","wayanad"]}],
-            oct29:[{name:["hae","hee","hlioyr"],place:["kannur","kozhikode","wayanad"]}],
+            oct28:[{name:["hae","hee","hlioyr"],place:["kannur","kozhikode","wayanad"]}],
+            oct29:[{name:["Hlo","Hai","Hae"],place:["kannur","kozhikode","wayanad"]}],
             oct30:[{name:["hae","hee","hlioyr"],place:["kannur","kozhikode","wayanad"]}],
             oct31:[{name:["hae","hee","hlioyr"],place:["kannur","kozhikode","wayanad"]}],
 

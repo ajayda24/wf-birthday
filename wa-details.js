@@ -1235,11 +1235,11 @@ module.exports =
                 image:["https://picsum.photos/id/1003/200","https://picsum.photos/id/1/200"]
             }],
             oct28:[{name:["hae","hee","hlioyr","gghshsh"],
-                    image:["https://picsum.photos/id/1003/200","https://picsum.photos/id/1/200","","https://picsum.photos/id/1/200"]}
+                    image:["https://picsum.photos/id/1003/200","https://picsum.photos/id/1/200","https://picsum.photos/id/1/200"]}
                 ],
             oct29:[{
                 name:["hae","hee","hlioyr"],
-                image:["https://picsum.photos/id/1003/200","https://picsum.photos/id/1/200"]
+                image:["https://picsum.photos/id/1003/200","https://picsum.photos/id/1/200","https://picsum.photos/id/1/200"]
             }],
             oct30:[{
                 name:["hae","hee","hlioyr"],
