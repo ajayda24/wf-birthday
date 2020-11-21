@@ -360,7 +360,7 @@ module.exports =
             nov18:[{name:[],place:[]}],
             nov19:[{name:[],place:[]}],
             nov20:[{name:[],place:[]}],
-            nov21:[{name:[],place:['kannur']}],
+            nov21:[{name:[],place:[]}],
             nov22:[{name:['HELLO'],place:[]}],
             nov23:[{name:[],place:[]}],
             nov24:[{name:["REENA SHIRLY"],place:["KULAPPURAM"]}],
