@@ -7,9 +7,11 @@
 </head>
 <body>
 <%- include('p/navbar'); -%>
+<% if (bd[0].name.length > 0) { %>
 <div class="text-center">
   <div class="container">
-    <h1 class="display-3">Happy Birthday</h1>
+    <h5>"എൻ മനമേ, യഹോവയെ വാഴ്ത്തുക; അവന്റെ ഉപകാരങ്ങൾ ഒന്നും മറക്കരുതു."</h5>
+    <h1 class="display-4">Happy Birthday</h1>
   </div>
 </div>
 <div class="album py-5 bg-light text-center">
@@ -22,7 +24,7 @@
               <div class="col col-sm-6 col-md-4 col-lg-3 mb-4">
                 <div class="card h-100 text-white bg-dark text-center">
                   <div class="card-body">
-                    <h2 class="card-title"><%= bd[0].name[i] %></h5>
+                    <h3 class="card-title"><%= bd[0].name[i] %></h5>
                       <p class="card-text"><%= bd[0].place[i] %></p>
                     <a href="whatsapp://send?text=https://wishes-aj.herokuapp.com/wf-birthday/wf/<%=i%>"
                     data-action="share/whatsapp/share"
@@ -32,18 +34,46 @@
               </div>
             
           <% } %>     
+    </div>
+    </div>
+    </div>
 
-          <div class="col col-sm-6 col-md-4 col-lg-3 mb-4"  onclick="window.location.href='/wf-wedding'">
+  <div class="text-center mb-4">
+<div class="container mb-4">
+
+<h5 class="mb-4">' പുതിയ വര്‍ഷത്തില്‍ താ പുതിയ വിശ്വാസം.' <br><br> പുതുവർഷം അനുഗ്രഹത്തിൻ്റെയും സന്തോഷത്തിൻ്റെയും സമാധാനത്തിൻ്റെയും വർഷമായി ഭവിക്കട്ടെ.</h5>
+
+<button type="button" class="btn btn-dark button-birthday "
+  onclick="window.location.href='/wf-wedding'">View Today's Wedding Anniversary</button>
+</div>
+</div>
+
+          <!-- <div class="col col-sm-6 col-md-4 col-lg-3 mb-4"  onclick="window.location.href='/wf-wedding'">
             <div class="card h-100 text-white bg-dark text-center" >
               <div class="card-body">
-                <h5 class="card-title">View Today's Wedding Anniversary</h5>
-                <button type="button" class="btn btn-success button-birthday" onclick="window.location.href='/wf-birthday'">View</button>
-              </div>
+                <h5 class="card-title">View Today's Wedding Anniversary</h5> -->
+                <!-- <button type="button" class="btn btn-success button-birthday mb-4" onclick="window.location.href='/wf-birthday'">hello</button> -->
+              <!-- </div>
             </div>
-          </div>
+          </div> -->
             
-    </div>
+<% } else { %>
+  <div class="text-center">
+  <div class="container">
+    <h1 class="display-4"> No Birthday Today</h1>
   </div>
-</div>
+  </div>
+
+
+  <div class="text-center mb-4">
+    <div class="container mb-4">
+    
+    
+    <button type="button" class="btn btn-dark button-birthday mt-4"
+      onclick="window.location.href='/wf-wedding'">View Today's Wedding Anniversary</button>
+    </div>
+    </div>
+
+  <% } %>
 
 <%- include('p/footer'); -%>

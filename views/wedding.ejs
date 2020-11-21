@@ -7,14 +7,15 @@
 </head>
 <body>
 <%- include('p/navbar'); -%>
+<% if (bd[0].name.length > 0) { %>
 <div class="text-center">
   <div class="container">
-    <h1 class="display-3">Happy Wedding Anniversary</h1>
+    <h5>"എൻ മനമേ, യഹോവയെ വാഴ്ത്തുക; അവന്റെ ഉപകാരങ്ങൾ ഒന്നും മറക്കരുതു."</h5>
+    <h1 class="display-4">Happy Wedding Anniversary</h1>
   </div>
 </div>
-
 <div class="album py-5 bg-light text-center">
-  <div class="container">
+  <div class="container ">
   <div class="row row-cols-1 row-cols-md-3"> 
 
             <% for(var i=0; i<bd[0].name.length; i++){ %>
@@ -34,18 +35,38 @@
             
           <% } %>    
 
-          <div class="col col-sm-6 col-md-4 col-lg-3 mb-4"  onclick="window.location.href='/wf-birthday'">
-            <div class="card h-100 text-white bg-dark text-center" >
-              <img src="images/birthday.jpg" class="card-img-top" alt="...">
-              <div class="card-body card-birthday">
-                <h5 class="card-title ">Today's Birthday</h5>
-                <button type="button" class="btn btn-success" onclick="window.location.href='/wf-birthday'">View</button>
-              </div>
-            </div>
-          </div>
+          
             
     </div>
   </div>
 </div>
+<div class="text-center mb-4">
+<div class="container mb-4">
+
+<h6 class="mb-4">' പുതിയ വര്‍ഷത്തില്‍ താ പുതിയ വിശ്വാസം. നിന്‍ വാക്കു സാന്നിദ്ധ്യം
+  കലര്‍ന്നു ചെയ്ക വാസം' <br><br> പുതുവർഷം അനുഗ്രഹത്തിൻ്റെയും സന്തോഷത്തിൻ്റെയും സമാധാനത്തിൻ്റെയും വർഷമായി ഭവിക്കട്ടെ.</h6>
+
+<button type="button" class="btn btn-dark button-birthday "
+  onclick="window.location.href='/wf-birthday'">View Today's Birthday</button>
+</div>
+</div>
+
+<% } else { %>
+  <div class="text-center">
+  <div class="container">
+    <h1 class="display-4"> No Wedding Anniversary Today</h1>
+  </div>
+  </div>
+
+  <div class="text-center mb-4">
+    <div class="container mb-4">
+    
+    
+    <button type="button" class="btn btn-dark button-birthday mt-4"
+      onclick="window.location.href='/wf-birthday'">View Today's Birthday</button>
+    </div>
+    </div>
+<% } %>
+
 
 <%- include('p/footer'); -%>
