@@ -355,7 +355,7 @@ module.exports = {
   nov18: [{ name: [], image: [] }],
   nov19: [{ name: [], image: [] }],
   nov20: [{ name: [], image: [] }],
-  nov21: [{ name: ['hai'], image: [] }],
+  nov21: [{ name: ['hai'], image: ['images/w/13.jpg'] }],
   nov22: [{ name: [], image: [] }],
   nov23: [{ name: [], image: [] }],
   nov24: [{ name: [], image: [] }],
