@@ -355,7 +355,7 @@ module.exports = {
   nov18: [{ name: [], image: [] }],
   nov19: [{ name: [], image: [] }],
   nov20: [{ name: [], image: [] }],
-  nov21: [{ name: [], image: [] }],
+  nov21: [{ name: ['REV. TREVOR JYOTISH W & ANNE TREVOR'], image: ['images/w/13.jpg'] }],
   nov22: [{ name: ['REV. TREVOR JYOTISH W & ANNE TREVOR'], image: ['images/w/13.jpg'] }],
   nov23: [{ name: [], image: [] }],
   nov24: [{ name: [], image: [] }],
