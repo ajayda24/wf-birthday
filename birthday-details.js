@@ -4,7 +4,7 @@ module.exports =
         {
             // January -----------------------------------------------------
 
-            jan1:[{name:[],place:[]}],
+            jan1:[{name:["LEELAMMA GEORGE"],place:["ARABI"]}],
             jan2:[{name:["VALSALA VINCENT"],place:["TALAP"]}],
             jan3:[{name:[],place:[]}],
             jan4:[{name:[],place:[]}],
@@ -19,7 +19,7 @@ module.exports =
             jan13:[{name:[],place:[]}],
             jan14:[{name:[],place:[]}],
             jan15:[{name:[],place:[]}],
-            jan16:[{name:[],place:[]}],
+            jan16:[{name:["ELIYAMMA THOMAS"],place:["ARABI"]}],
             jan17:[{name:[],place:[]}],
             jan18:[{name:[],place:[]}],
             jan19:[{name:[],place:[]}],
@@ -380,7 +380,7 @@ module.exports =
             dec4:[{name:["SHINY CHACKO","JANET SOUDAMINI"],place:["PARAKKAPPARA","MADAYI"]}],
             dec5:[{name:[],place:[]}],
             dec6:[{name:["TINTU SHAJI"],place:["NEDUVALOOR"]}],
-            dec7:[{name:[],place:[]}],
+            dec7:[{name:["BEENA PETER"],place:["ARABI"]}],
             dec8:[{name:[],place:[]}],
             dec9:[{name:[],place:[]}],
             dec10:[{name:[],place:[]}],
@@ -398,7 +398,7 @@ module.exports =
             dec22:[{name:[],place:[]}],
             dec23:[{name:["SHOBANA PETER"],place:["HEBICH'S KANNUR"]}],
             dec24:[{name:["LISSY ROBERT"],place:["ARABI"]}],
-            dec25:[{name:["SHYMA VALSAKUMAR"],place:["CHOVVA"]}],
+            dec25:[{name:["SHYMA VALSAKUMAR","MARY THOMAS","GRACY SAMUEL"],place:["CHOVVA","ARABI","ARABI"]}],
             dec26:[{name:[],place:[]}],
             dec27:[{name:["BINCY REJI"],place:["IRITTY"]}],
             dec28:[{name:["JYOTHI ROMEO"],place:["MADAYI"]}],
