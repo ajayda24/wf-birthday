@@ -115,8 +115,8 @@ module.exports = {
   apr13: [{ name: [], image: [] }],
   apr14: [{ name: [], image: [] }],
   apr15: [{ name: [], image: [] }],
-  apr16: [{ name: ['N C MATHEW & LALI MATHEW'], image: [''] }],
-  apr17: [{ name: ['SAM THOMAS & LIJI SAM'], image: ['https://drive.google.com/uc?export=view&id=1ZgGzfxqj7hgbd4URfTfCcvI5oNuxPMgu'] }],
+  apr16: [{ name: ['EVG. N C MATHEW & LALI MATHEW'], image: [''] }],
+  apr17: [{ name: ['EVG. SAM THOMAS & LIJI SAM'], image: ['https://drive.google.com/uc?export=view&id=1ZgGzfxqj7hgbd4URfTfCcvI5oNuxPMgu'] }],
   apr18: [{ name: [], image: [] }],
   apr19: [{ name: [], image: [] }],
   apr20: [{ name: [], image: [] }],
@@ -127,7 +127,7 @@ module.exports = {
   apr25: [{ name: [], image: [] }],
   apr26: [{ name: [], image: [] }],
   apr27: [{ name: ['REV. JOY ALEX & PRAVEENA JOY'], image: ['https://drive.google.com/uc?export=view&id=1eMAEhfEzcZ4xi4moM-rvWf0EfyqghlOQ'] }],
-  apr28: [{ name: ['K V THOMAS & LEELAMMA THOMAS'], image: ['https://drive.google.com/uc?export=view&id=1S-jRAN-2mFMB3kuAjaEg8Bket043Ll-v'] }],
+  apr28: [{ name: ['EVG. K V THOMAS & LEELAMMA THOMAS'], image: ['https://drive.google.com/uc?export=view&id=1S-jRAN-2mFMB3kuAjaEg8Bket043Ll-v'] }],
   apr29: [{ name: [], image: [] }],
   apr30: [{ name: [], image: [] }],
 
@@ -167,7 +167,7 @@ module.exports = {
 
   // June
 
-  jun1: [{ name: ['V M RAJU & MINI RAJU'], image: ['https://drive.google.com/uc?export=view&id=1rm4ZRlNGGyUqtfJco6hU9opVMrLT5w0k'] }],
+  jun1: [{ name: ['EVG. V M RAJU & MINI RAJU'], image: ['https://drive.google.com/uc?export=view&id=1rm4ZRlNGGyUqtfJco6hU9opVMrLT5w0k'] }],
   jun2: [{ name: [], image: [] }],
   jun3: [{ name: [], image: [] }],
   jun4: [{ name: [], image: [] }],
@@ -176,7 +176,7 @@ module.exports = {
   jun7: [{ name: [], image: [] }],
   jun8: [{ name: [], image: [] }],
   jun9: [{ name: [], image: [] }],
-  jun10: [{ name: [], image: [] }],
+  jun10: [{ name: ['EVG. E K CHRISPUS & ANNAMMA CHRISPUS'], image: ['https://drive.google.com/uc?export=view&id=1VbQKSe8BABbZNW82PZNdHKXHDrd3McJ5'] }],
   jun11: [{ name: [], image: [] }],
   jun12: [{ name: [], image: [] }],
   jun13: [{ name: [], image: [] }],
@@ -201,7 +201,7 @@ module.exports = {
   // July
 
   jul1: [{ name: [], image: [] }],
-  jul2: [{ name: [], image: [] }],
+  jul2: [{ name: ['EVG. M M RAJU & JESSY RAJU'], image: ['https://drive.google.com/uc?export=view&id=1tAoMx87KEV9zQH7UP8kZJF4YQ-jyCfB2'] }],
   jul3: [{ name: [], image: [] }],
   jul4: [{ name: [], image: [] }],
   jul5: [{ name: [], image: [] }],
@@ -262,7 +262,7 @@ module.exports = {
   aug26: [{ name: [], image: [] }],
   aug27: [{ name: [], image: [] }],
   aug28: [{ name: [], image: [] }],
-  aug29: [{ name: [], image: [] }],
+  aug29: [{ name: ['EVG. SUJITH JOSEPH & CHISTEENA SUJITH'], image: ['https://drive.google.com/uc?export=view&id=1Vc2rXHF2X3L2KOqNAxstf3LVHzDN0kuO'] }],
   aug30: [{ name: [], image: [] }],
   aug31: [{ name: [], image: [] }],
 
@@ -278,7 +278,7 @@ module.exports = {
   sep8: [{ name: [], image: [] }],
   sep9: [{ name: [], image: [] }],
   sep10: [{ name: [], image: [] }],
-  sep11: [{ name: ['BINOY LAMBERT & REMYA BINOY'], image: ['https://drive.google.com/uc?export=view&id=1zBo4MdwATm5PFYeGJO9zHSc_Qmjq-7_c'] }],
+  sep11: [{ name: ['EVG. BINOY LAMBERT & REMYA BINOY'], image: ['https://drive.google.com/uc?export=view&id=1zBo4MdwATm5PFYeGJO9zHSc_Qmjq-7_c'] }],
   sep12: [{ name: [], image: [] }],
   sep13: [{ name: [], image: [] }],
   sep14: [{ name: [], image: [] }],
@@ -328,7 +328,7 @@ module.exports = {
   oct25: [{ name: [], image: [] }],
   oct26: [{ name: [], image: [] }],
   oct27: [{ name: [], image: [] }],
-  oct28: [{ name: ['BENJAMIN MATHEW & SULOCHANA BENJAMIN'], image: ['https://drive.google.com/uc?export=view&id=1au_HC44uT4Sx9BwNiGZ0QEZ8qWjFGs2y'] }],
+  oct28: [{ name: ['EVG. BENJAMIN MATHEW & SULOCHANA BENJAMIN'], image: ['https://drive.google.com/uc?export=view&id=1au_HC44uT4Sx9BwNiGZ0QEZ8qWjFGs2y'] }],
   oct29: [{ name: [], image: [] }],
   oct30: [{ name: [], image: [] }],
   oct31: [{ name: [], image: [] }],
