@@ -41,7 +41,7 @@ module.exports = {
   feb5: [{ name: [], image: [] }],
   feb6: [{ name: [], image: [] }],
   feb7: [{ name: [], image: [] }],
-  feb8: [{ name: ['REV. ROBERT JOHN & LISSY ROBERT'], image: [''] }],
+  feb8: [{ name: ['REV. ROBERT JOHN & LISSY ROBERT'], image: ['https://drive.google.com/uc?export=view&id=12zxN6-Gmnef-gn8X-wZAL6SaJkhSBI-A'] }],
   feb9: [{ name: [], image: [] }],
   feb10: [{ name: [], image: [] }],
   feb11: [{ name: [], image: [] }],
