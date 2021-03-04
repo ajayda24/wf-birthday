@@ -73,7 +73,7 @@ module.exports =
             mar1:[{name:[],place:[]}],
             mar2:[{name:[],place:[]}],
             mar3:[{name:[],place:[]}],
-            mar4:[{name:['RINATA ANGEL LIVINGSTON'],place:['CHOMBALA']}],
+            mar4:[{name:[],place:[]}],
             mar5:[{name:['JESNA SHIJU'],place:['CHOOTTAD']}],
             mar6:[{name:[],place:[]}],
             mar7:[{name:[],place:[]}],
@@ -106,7 +106,7 @@ module.exports =
 
             apr1:[{name:[],place:[]}],
             apr2:[{name:[],place:[]}],
-            apr3:[{name:[],place:[]}],
+            apr3:[{name:['RINATA ANGEL LIVINGSTON'],place:['CHOMBALA']}],
             apr4:[{name:[],place:[]}],
             apr5:[{name:['SABITHA PRASANTH'],place:['PAYYANNUR']}],
             apr6:[{name:[],place:[]}],
