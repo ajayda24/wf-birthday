@@ -115,7 +115,7 @@ module.exports = {
   apr13: [{ name: [], image: [] }],
   apr14: [{ name: [], image: [] }],
   apr15: [{ name: [], image: [] }],
-  apr16: [{ name: ['EVG. N C MATHEW & LALI MATHEW'], image: [''] }],
+  apr16: [{ name: ['EVG. N C MATHEW & LALI MATHEW'], image: ['https://drive.google.com/uc?export=view&id=14yXNZYAe4s_p0_wOWOjdLUZzyzxl72ax'] }],
   apr17: [{ name: ['EVG. SAM THOMAS & LIJI SAM'], image: ['https://drive.google.com/uc?export=view&id=1ZgGzfxqj7hgbd4URfTfCcvI5oNuxPMgu'] }],
   apr18: [{ name: [], image: [] }],
   apr19: [{ name: [], image: [] }],
