@@ -151,7 +151,7 @@ module.exports =
             may12:[{name:[],place:[]}],
             may13:[{name:[],place:[]}],
             may14:[{name:["ANNE TREVOR"],place:["CHOVVA"]}],
-            may15:[{name:[],place:[]}],
+            may15:[{name:["SHEEJA MERLIN"],place:["HEBICH'S KANNUR"]}],
             may16:[{name:[],place:[]}],
             may17:[{name:["JESSY LINET RIJOY"],place:["VADAKARA"]}],
             may18:[{name:["NEENA SAMSON"],place:["PAPPINISSERY"]}],
