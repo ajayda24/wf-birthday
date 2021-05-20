@@ -156,7 +156,7 @@ module.exports =
             may17:[{name:["JESSY LINET RIJOY"],place:["VADAKARA"]}],
             may18:[{name:["NEENA SAMSON"],place:["PAPPINISSERY"]}],
             may19:[{name:[],place:[]}],
-            may20:[{name:["NINA SANTHOSH",'ANNAMMA FEDRIC'],place:["CHOVVA",'PAYYANNUR']}],
+            may20:[{name:["NEENA SANTHOSH",'ANNAMMA FEDRIC'],place:["HEBICH'S KANNUR",'PAYYANNUR']}],
             may21:[{name:["MINI HERMON"],place:["NETTUR"]}],
             may22:[{name:[],place:[]}],
             may23:[{name:["SANDHYA PRAPHUL"],place:["CHOVVA"]}],
