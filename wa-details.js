@@ -167,13 +167,13 @@ module.exports = {
 
   // June
 
-  jun1: [{ name: ['EVG. V M RAJU & MINI RAJU'], image: ['https://drive.google.com/uc?export=view&id=1rm4ZRlNGGyUqtfJco6hU9opVMrLT5w0k'] }],
+  jun1: [{ name: [], image: [] }],
   jun2: [{ name: [], image: [] }],
   jun3: [{ name: [], image: [] }],
   jun4: [{ name: [], image: [] }],
   jun5: [{ name: [], image: [] }],
   jun6: [{ name: [], image: [] }],
-  jun7: [{ name: [], image: [] }],
+  jun7: [{ name: ['EVG. V M RAJU & MINI RAJU'], image: ['https://drive.google.com/uc?export=view&id=1rm4ZRlNGGyUqtfJco6hU9opVMrLT5w0k'] }],
   jun8: [{ name: [], image: [] }],
   jun9: [{ name: [], image: [] }],
   jun10: [{ name: ['EVG. E K CHRISPUS & ANNAMMA CHRISPUS'], image: ['https://drive.google.com/uc?export=view&id=1VbQKSe8BABbZNW82PZNdHKXHDrd3McJ5'] }],
