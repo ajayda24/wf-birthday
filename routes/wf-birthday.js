@@ -11,7 +11,7 @@ var month = new Array();
   month[3] = "apr";
   month[4] = "may";
   month[5] = "jun";
-  month[6] = "jul";
+  month[6] = "july";
   month[7] = "aug";
   month[8] = "sep";
   month[9] = "oct";
@@ -65,8 +65,8 @@ var month = new Array();
   
 
 
-router.get("/",function(req,res){
-    res.render('../views/birthday', {
+router.get("/", function (req, res) {
+    res.render('birthday', {
       bd: bday,
       nav: 'WF Birthday',
       link: '/wf-birthday',
