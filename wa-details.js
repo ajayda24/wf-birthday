@@ -206,7 +206,7 @@ module.exports = {
   jul4: [{ name: [], image: [] }],
   jul5: [{ name: [], image: [] }],
   jul6: [{ name: [], image: [] }],
-  jul7: [{ name: [], image: [] }],
+  jul7: [{ name: ['Rev James Mathew & Smitha James'], image: ['https://drive.google.com/uc?export=view&id=1j8VWORyH0kNQvRgyCeCuyewGS5KPAtVU'] }],
   jul8: [{ name: [], image: [] }],
   jul9: [{ name: [], image: [] }],
   jul10: [{ name: [], image: [] }],

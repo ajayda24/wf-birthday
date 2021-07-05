@@ -301,7 +301,7 @@ module.exports =
             sep27:[{name:[],place:[]}],
             sep28:[{name:[],place:[]}],
             sep29:[{name:["SHEELA SAMUEL"],place:["CHOMBALA"]}],
-            sep30:[{name:["BINANCY JOSE"],place:["IRITTY-VALLITHODE"]}],
+            sep30:[{name:["BINANCY JOSE",'SMITHA JAMES'],place:["IRITTY-VALLITHODE",'ARABI']}],
             sep31:[{name:[],place:[]}],
 
             // October ------------------------------------------------------------
