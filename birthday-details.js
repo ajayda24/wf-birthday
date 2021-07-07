@@ -210,7 +210,7 @@ module.exports =
             july4:[{name:[],place:[]}],
             july5:[{name:[],place:[]}],
             july6:[{name:[],place:[]}],
-            july7:[{name:["SAJITHA MARIAM PHILIP"],place:["MADAYI"]}],
+            july7:[{name:["SAJITHA MARIAM PHILIP","SHYMA DANIEL"],place:["MADAYI","CHOVVA"]}],
             july8:[{name:[],place:[]}],
             july9:[{name:[],place:[]}],
             july10:[{name:['MARY JOHN'],place:['TALAP']}],
