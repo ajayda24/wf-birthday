@@ -1,0 +1,74 @@
+<%- include('p/header'); -%>
+<meta property="og:title" content="Happy Birthday Wishes" />
+<meta property="og:description" content="Kannur Area Women's Fellowship, Wish you a Happy Birthday" />
+<meta property="og:image" content="images/logo1.png" />
+<link rel="icon" type="image/png" href="images/logo1.png">
+<title>KNR Area Birthday Wishes</title>
+</head>
+<body>
+<%- include('p/navbar'); -%>
+<% if (bd[0].name.length > 0) { %>
+<div class="text-center">
+  <div class="container">
+    <h5 class="bible">"എൻ മനമേ, യഹോവയെ വാഴ്ത്തുക; അവന്റെ ഉപകാരങ്ങൾ ഒന്നും മറക്കരുതു."</h5>
+    <h1 class="display-4 hb">Happy Birthday</h1>
+  </div>
+</div>
+<div class="album py-5 bg-light text-center default-bg">
+  <div class="container">
+
+  <div class="row row-cols-1 row-cols-md-3"> 
+
+            <% for(var i=0; i<bd[0].name.length; i++){ %>
+            
+              <div class="col col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100 text-white bg-dark text-center">
+                  <div class="card-body">
+                    <h3 class="card-title"><%= bd[0].name[i] %></h5>
+                      <p class="card-text"><%= bd[0].place[i] %></p>
+                    <a href="whatsapp://send?text=https://wishes-aj.herokuapp.com/wf-birthday/wf/<%=i%>"
+                    data-action="share/whatsapp/share"
+                    target="_blank"><img src="images/share.png" alt="" width="70px"></a>
+                  </div>
+                </div>
+              </div>
+            
+          <% } %>     
+    </div>
+    </div>
+    </div>
+
+  <div class="text-center mb-4">
+<div class="container mb-4">
+
+<h5 class="mb-4 mt-3 basel">' പുതിയ വര്‍ഷത്തില്‍ <br> താ പുതിയ വിശ്വാസം <br> നിന്‍ വാക്കു സാന്നിദ്ധ്യം
+ <br> കലര്‍ന്നു ചെയ്ക വാസം.'</h5>
+   <br>
+   <h5 class="wish">  അനുഗ്രഹത്തിൻ്റെയും സന്തോഷത്തിൻ്റെയും സമാധാനത്തിൻ്റെയും ഒരു പുതുവർഷം ആശംസിക്കുന്നു.</h5>
+
+<button type="button" class="btn btn-dark button-birthday mt-4 mb-4"
+  onclick="window.location.href='/wf-wedding'">View Today's Wedding Anniversary</button>
+</div>
+</div>
+
+            
+<% } else { %>
+  <div class="text-center">
+  <div class="container">
+    <h1 class="display-4"> No Birthday Today</h1>
+  </div>
+  </div>
+
+
+  <div class="text-center mb-4">
+    <div class="container mb-4">
+    
+    
+    <button type="button" class="btn btn-dark button-birthday mt-4"
+      onclick="window.location.href='/wf-wedding'">View Today's Wedding Anniversary</button>
+    </div>
+    </div>
+
+  <% } %>
+
+<%- include('p/footer'); -%>

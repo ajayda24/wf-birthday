@@ -1,0 +1,41 @@
+<%- include('p/header'); -%>
+<meta property="og:title" content="Happy Birthday <%= name %>" />
+<meta property="og:description" content="KNR Area WF Wishes you a Happy Birthday" />
+<meta property="og:url" content="/wf/<%= id %>" />
+<meta property="og:image" content="images/logo1.png" />
+<title>KNR Area Birthday Wishes</title>
+<link rel="icon" type="image/png" href="images/logo1.png">
+</head>
+<body>
+<%- include('p/navbar'); -%>
+
+<div class="album py-5 bg-light text-center">
+  <div class="container">
+
+  <div class="row row-cols-1 row-cols-md-3 justify-content-center"> 
+
+            
+              <div class="col col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card h-100 text-white bg-dark text-center">
+                  <div class="card-body">
+                    <h2 class="card-title"><%= name %></h5>
+                      <p class="card-text"><%= place %></p>
+                  </div>
+                </div>
+              </div>
+             
+            
+    </div>
+    <button type="button" class="btn btn-dark" onclick="window.location.href='/wf-birthday'">View More</button>
+  </div>
+</div>
+
+
+<%- include('p/footer'); -%>
+
+
+
+
+
+
+
