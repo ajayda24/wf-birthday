@@ -297,7 +297,7 @@ module.exports =
             sep23:[{name:["JINTO SHAJAN"],place:["ARABI"]}],
             sep24:[{name:[],place:[]}],
             sep25:[{name:[],place:[]}],
-            sep26:[{name:['MERLIN JIJESH','MERLIN MATHEW'],place:['CHOOTTAD','CHOOTTAD']}],
+            sep26:[{name:['MERLIN JIJESH'],place:['CHOOTTAD']}],
             sep27:[{name:[],place:[]}],
             sep28:[{name:[],place:[]}],
             sep29:[{name:["SHEELA SAMUEL"],place:["CHOMBALA"]}],
