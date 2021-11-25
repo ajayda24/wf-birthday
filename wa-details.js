@@ -362,7 +362,7 @@ module.exports = {
   nov25: [{ name: [], image: [] }],
   nov26: [{ name: [], image: [] }],
   nov27: [{ name: [], image: [] }],
-  nov28: [{ name: ['REV. TREVOR JYOTISH W & ANNE TREVOR'], image: ['https://drive.google.com/uc?export=view&id=1T336xCYum8amNL1JA4eLvE7DsxWpDfh-'] }],
+  nov28: [{ name: ['REV. TREVOR JYOTISH W & ANNE TREVOR'], image: ['https://drive.google.com/uc?export=view&id=1YZ6Po0rWEQxF0VEoolhBb5dD8u2F5X_d'] }],
   nov29: [{ name: [], image: [] }],
   nov30: [{ name: [], image: [] }],
 
