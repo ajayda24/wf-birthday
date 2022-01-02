@@ -1,7 +1,7 @@
 module.exports = {
   // January
   jan1: [{ name: [], image: [] }],
-  jan2: [{ name: [], image: [] }],
+  jan2: [{ name: ['REV. SHERRY GEORGE & SHALINE SHERRY '], image: ['https://drive.google.com/uc?export=view&id=1vk5uxaBEJElXxVUkhnPsK3kKIyz_WVH3'] }],
   jan3: [{ name: [], image: [] }],
   jan4: [{ name: [], image: [] }],
   jan5: [{ name: [], image: [] }],
