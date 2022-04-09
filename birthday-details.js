@@ -112,7 +112,7 @@ module.exports =
             apr6:[{name:[],place:[]}],
             apr7:[{name:[],place:[]}],
             apr8:[{name:[],place:[]}],
-            apr9:[{name:['NIRMAL MONDODY'],place:['THALASSERY']}],
+            apr9:[{name:['NIRMALA MONDODY'],place:['THALASSERY']}],
             apr10:[{name:["VALSAMMA GEORGE"],place:["KULAPPURAM"]}],
             apr11:[{name:[],place:[]}],
             apr12:[{name:['USHA'],place:['THALASSERY']}],
